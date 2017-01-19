@@ -24,7 +24,7 @@
 	.EXAMPLE
 		Get-FixupGPOList -UserConfigurationOnly | Export-Csv -NoTypeInformation C:\Temp\GPOList.csv
 	.NOTES
-        File Name: Get-FixupGPOList.ps1
+        	File Name: Get-FixupGPOList.ps1
 		Version: v 0.1
 		Change Log:	6/23/2016 - Initial
 	#>
@@ -233,6 +233,9 @@
 					}
 				} #comp
 			} #end_switch
+			
 		} #foreach
+		
 	} #end_process
+	
 } #end_function
